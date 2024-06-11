@@ -1,0 +1,177 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background: #D3D3D3;
+    min-height: 100vh;
+}
+.w3-bar {
+    margin-bottom: 20px;
+}
+
+/* LandingPage Component styles */
+.bgimg {
+    background-image: url('./components/GreenBoard.jpeg'); 
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* CenterToScreen Component styles */
+.center-to-screen{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inside your component's CSS file or a separate CSS file */
+.fixed-header-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .fixed-header-table thead {
+    background-color: #f5f5f5;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .fixed-header-table tbody td {
+    padding: 10px;
+  }
+  
+  .fixed-header-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .fixed-header-table {
+    table-layout: auto; 
+  }
+  
+  .fixed-header-table tbody td {
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .fixed-header-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .fixed-header-table thead {
+    background-color: #f5f5f5;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .fixed-header-table th, .fixed-header-table td {
+    text-align: center; 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+  }
+  
+  .fixed-header-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .fixed-header-table th:nth-child(53), .fixed-header-table td:nth-child(53) {
+    text-align: center; 
+    border: 1px solid #ddd; 
+    padding: 8px;
+    min-width: 100px; 
+  }
+
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color:#2f90e0;
+    color: white;
+  }
+  tr:hover {background-color: rgb(201, 193, 191);}
+
+  /* Define the button styles */
+.normal-button {
+    background-color: #38598b; /* Initial background color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a transition effect */
+  }
+  
+  .active-button {
+    background-color: rgb(24, 230, 99); /* New background color when active */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .deleteButton {
+    background-color: rgb(221, 30, 30);
+    color: white;
+    border-color: rgb(221, 31, 31);
+}
+
+.deleteButton:hover,
+.deleteButton:focus {
+    background-color: rgb(155, 39, 39);
+    border-color: rgb(139, 17, 17);
+}
+/* Add this CSS to your global styles or App.css */
+
+/* Style for Sider component */
+.ant-layout-sider {
+    background-color: #e7f2ff; /* Your desired background color */
+}
+
+/* Style for Menu inside Sider */
+.ant-menu {
+    background-color: #d9e0e9; /* Your desired background color */
+}
+
+/* Style for Menu items */
+.ant-menu-item, .ant-menu-submenu-title {
+    color: #000000; /* Text color for menu items */
+}
+
+/* Style for selected menu item */
+.ant-menu-item-selected, .ant-menu-submenu-selected {
+    background-color: #1890ff; /* Your desired background color for selected menu item */
+}
+/* .site-layout-content {
+  max-height: 900px;
+  padding: 24px;
+  background: #fff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+} */
+/* .ant-layout-sider {
+  overflow-y: auto; 
+  height: 100vh; 
+   
+} */
+.ant-layout-sider-children {
+  heigth: 100%;
+  overflow: auto;
+  
+}
+@media (max-width: 768px) { /* Adjust the max-width value as needed */
+  .ant-layout .ant-layout-sider-zero-width-trigger {
+    display: none !important; /* Hide the toggle button */
+  }
+}

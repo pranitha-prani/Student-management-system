@@ -1,0 +1,25 @@
+import { CommonLayout } from './common';
+
+export { default as LandingPage } from './LandingPage';
+export { default as Login } from './Login';
+export { default as Register } from './Register';
+export { default as ForgotPassword } from './ForgotPassword';
+export { default as Module1 } from './Module1';
+export { default as Module2 } from './Module2';
+export { default as Module3 } from './Module3';
+export { default as Module4 } from './Module4';
+export { default as Module5 } from './Module5';
+export { default as ModuleN } from './ModuleN';
+export { default as Module6Child1 } from './Module6Child1';
+export { default as ModuleNChild2 } from './ModuleNChild2';
+export { default as ModuleNChild3 } from './ModuleNChild3';
+export { default as ModuleNChild4 } from './ModuleNChild4';
+export { default as ModuleNChild5 } from './ModuleNChild5';
+export { default as ModuleNChild6 } from './ModuleNChild6';
+export { default as Profile } from './Profile';
+export { default as Dashboard } from './Dashboard';
+export {default as StudentsPage} from './students';
+export {default as CommonLayout} from './common/CommonLayout';
+export{default as SiderCom} from './SiderCom';
+export {default as Teacher} from './Teacher';
+export {default as CreateTeacher} from './CreateTeacher';
